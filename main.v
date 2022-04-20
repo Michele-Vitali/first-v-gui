@@ -4,6 +4,33 @@ import ui
 
 fn main(){
 
-	println("Hello world")
+	ui.window(
+		width: 800
+		height: 600
+		title: 'V GUI Application'
+		children: [
+			ui.row(
+				margin: Margin{10, 10, 10, 10}
+				children: [
+					ui.column(
+						width: 300
+						spacing: 20
+						children: [
+							ui.textbox(
+								width: 300
+								placeholder: 'First name'
+								text: &app.first_name
+							),
+							ui.textbox(
+								width: 300
+								placeholder: 'Last name'
+								text: &app.last_name
+							)
+						]
+					)
+				]
+			)
+		]
+	)
 
 }
