@@ -3,9 +3,9 @@ import ui
 
 fn main(){
 
-	mut app := &App(
+	mut app := &App{
 		window: 0
-	)
+	}
 
 	app.window = ui.window(
 		width: 800
