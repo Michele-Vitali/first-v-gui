@@ -31,6 +31,10 @@ fn main(){
 					ui.textbox(
 						width: 10
 						placeholder: 'Last name'
+					),
+					ui.Button(
+						text: 'Click me to change the title!'
+						onclick: change_title
 					)
 				]
 			)
@@ -38,5 +42,20 @@ fn main(){
 	)
 
 	ui.run(app.window)
+
+}
+
+fn change_title(mut app App, btn &ui.Button){
+
+	mut str := ""
+
+	if app.window.title == 'V GUI Application'{
+		str = 'This is fantastic!'
+	}
+	else{
+		str = 'V GUI Application'
+	}
+
+	app.window.set_title(str)
 
 }
