@@ -32,7 +32,7 @@ fn main(){
 						width: 10
 						placeholder: 'Last name'
 					),
-					ui.Button(
+					ui.button(
 						text: 'Click me to change the title!'
 						onclick: change_title
 					)
