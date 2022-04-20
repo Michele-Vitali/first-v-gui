@@ -21,7 +21,7 @@ fn main(){
 		children: [
 			ui.column(
 				margin: ui.Margin{10, 10, 10, 10}
-				width: 100
+				width: 20
 				spacing: 100
 				children: [
 					ui.textbox(
