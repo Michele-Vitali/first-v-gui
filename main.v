@@ -22,14 +22,14 @@ fn main(){
 			ui.column(
 				margin: ui.Margin{10, 10, 10, 10}
 				width: 20
-				spacing: 100
+				spacing: 20
 				children: [
 					ui.textbox(
-						width: 300
+						width: 10
 						placeholder: 'First name'
 					),
 					ui.textbox(
-						width: 300
+						width: 10
 						placeholder: 'Last name'
 					)
 				]
