@@ -19,23 +19,17 @@ fn main(){
 		height: 600
 		title: 'V GUI Application'
 		children: [
-			ui.row(
+			ui.column(
 				width: 300
-				margin: ui.Margin{10, 10, 10, 10}
+				spacing: 20
 				children: [
-					ui.column(
+					ui.textbox(
 						width: 300
-						spacing: 20
-						children: [
-							ui.textbox(
-								width: 300
-								placeholder: 'First name'
-							),
-							ui.textbox(
-								width: 300
-								placeholder: 'Last name'
-							)
-						]
+						placeholder: 'First name'
+					),
+					ui.textbox(
+						width: 300
+						placeholder: 'Last name'
 					)
 				]
 			)
