@@ -20,6 +20,7 @@ fn main(){
 		title: 'V GUI Application'
 		children: [
 			ui.column(
+				margin: ui.Margin{10, 10, 10, 10}
 				width: 300
 				spacing: 20
 				children: [
