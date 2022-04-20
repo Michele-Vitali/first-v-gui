@@ -4,6 +4,6 @@ import ui
 
 fn main(){
 
-
+	println("Hello world")
 
 }
