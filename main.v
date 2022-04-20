@@ -34,7 +34,7 @@ fn main(){
 					),
 					ui.button(
 						text: 'Click me to change the title!'
-						onclick: change_title
+						/*onclick: change_title*/
 					)
 				]
 			)
