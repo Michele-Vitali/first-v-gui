@@ -3,7 +3,11 @@ import ui
 
 fn main(){
 
-	ui.window(
+	mut app := &App(
+		window: 0
+	)
+
+	app.window = ui.window(
 		width: 800
 		height: 600
 		title: 'V GUI Application'
@@ -29,5 +33,7 @@ fn main(){
 			)
 		]
 	)
+
+	ui.run(app.window)
 
 }
