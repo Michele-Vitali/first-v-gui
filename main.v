@@ -4,7 +4,7 @@ struct App{
 
 	mut: 
 		text string
-		window &ui.window
+		window &ui.Window
 
 }
 
