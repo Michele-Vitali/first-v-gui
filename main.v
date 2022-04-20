@@ -10,7 +10,7 @@ fn main(){
 		title: 'V GUI Application'
 		children: [
 			ui.row(
-				margin: Margin{10, 10, 10, 10}
+				margin: ui.Margin{10, 10, 10, 10}
 				children: [
 					ui.column(
 						width: 300
@@ -19,12 +19,10 @@ fn main(){
 							ui.textbox(
 								width: 300
 								placeholder: 'First name'
-								text: &app.first_name
 							),
 							ui.textbox(
 								width: 300
 								placeholder: 'Last name'
-								text: &app.last_name
 							)
 						]
 					)
